@@ -1,5 +1,5 @@
 cadena = input()
-frase = [letra for letra in cadena]
+frase = list(cadena)
 res = [[], []]
 
 for x in range(len(frase)):
