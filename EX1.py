@@ -1,6 +1,6 @@
 cadena = input()
 frase = list(cadena)
-res = [[], []]
+res = [[] for _ in range(3)]
 
 for x in range(len(frase)):
     res[0].append(frase[x])
